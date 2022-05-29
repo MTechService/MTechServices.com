@@ -1,0 +1,70 @@
+
+.top-container{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.top-inner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.top-container img{
+    width: 200px !important;
+    height: 200px !important;
+}
+.top-inner-container h1{
+    color: purple;
+    font-size: 50px;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: bold;
+}
+.top-inner-container p{
+    font-size: 30px;
+
+}
+.top-inner-container h2{
+    font-size: 30px;
+    color: rgb(197, 34, 61);
+}
+.middle-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.middle-container li{
+    font-size: 20px;
+    color: red;
+}
+.brandImage{
+    width:100px !important;
+     height:120px !important;
+     position: relative;
+     bottom: 20px;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .firstImg {
+      width: 100% !important;
+      right: 20%;
+    }
+    .top-inner-container{
+      width: 100%;
+      top: 50%;
+    }
+    }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    img {
+        width: 100%;
+        right: 20%;
+      }
+      .top-inner-container{
+        width: 100%;
+        top: 50%;
+      }
+        
+  }
